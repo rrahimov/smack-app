@@ -31,4 +31,5 @@ class GradientView: UIView {
         //add layer
         self.layer.insertSublayer(gradientLayer, at: 0)
     }
+    //
 }
