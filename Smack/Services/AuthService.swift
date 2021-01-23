@@ -52,14 +52,23 @@ class AuthService {
             "password": password
         ]
         
-        AF.request(URL_REGISTER, method: .post, parameters: body, encoding: JSONEncoding.default, headers: header).responseString { (response) in
-            //deleted .result here
-            if response.error == nil {
+//        AF.request(URL_REGISTER, method: .post, parameters: body, encoding: JSONEncoding.default, headers: header).responseString { (response) in
+//            //deleted .result here
+//            if response.error == nil {
+//                completion(true)
+//            } else {
+//                completion(false)
+//                debugPrint(response.error as Any)
+//            }
+        
+        AF.request(URL_REGISTER, method: .post, parameters: body, encoding: JSONEncoding.default, headers: header).response { (response) in
+            let result = response.result
+            switch result {
+            case .success:
                 completion(true)
-            } else {
+            case .failure:
                 completion(false)
-                debugPrint(response.error as Any)
-            }
+        }
         }
     }
     
