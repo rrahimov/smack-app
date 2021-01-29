@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		88339F0659195D886273F3A4 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE434538CA2C4AC856CD91C /* Pods_Smack.framework */; };
 		900EE56325B8391000236B01 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EE56225B8391000236B01 /* RoundedButton.swift */; };
+		903FDC2A25C4A4B500C7E5BE /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903FDC2925C4A4B500C7E5BE /* AvatarPickerVC.swift */; };
+		903FDC2D25C4A7BC00C7E5BE /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903FDC2C25C4A7BC00C7E5BE /* AvatarCell.swift */; };
 		908BE96725AF6D850019FD43 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BE96625AF6D850019FD43 /* Constants.swift */; };
 		908BE96B25AF77820019FD43 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BE96A25AF77820019FD43 /* LoginVC.swift */; };
 		908DF13025ACB6CB004EFE38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908DF12F25ACB6CB004EFE38 /* AppDelegate.swift */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		900EE56225B8391000236B01 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		903FDC2925C4A4B500C7E5BE /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		903FDC2C25C4A7BC00C7E5BE /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		908BE96625AF6D850019FD43 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		908BE96A25AF77820019FD43 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		908DF12C25ACB6CB004EFE38 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +130,7 @@
 				90AF0BC025AE0137006C056A /* ChannelVC.swift */,
 				908BE96A25AF77820019FD43 /* LoginVC.swift */,
 				90CED52125B0AE4400B64659 /* CreateAccountVC.swift */,
+				903FDC2925C4A4B500C7E5BE /* AvatarPickerVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			children = (
 				90AF0BD325AE263F006C056A /* GradientView.swift */,
 				900EE56225B8391000236B01 /* RoundedButton.swift */,
+				903FDC2C25C4A7BC00C7E5BE /* AvatarCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -292,6 +298,7 @@
 				90E1D12725BDD79C006EDDE0 /* UserDataService.swift in Sources */,
 				908DF13025ACB6CB004EFE38 /* AppDelegate.swift in Sources */,
 				908BE96B25AF77820019FD43 /* LoginVC.swift in Sources */,
+				903FDC2D25C4A7BC00C7E5BE /* AvatarCell.swift in Sources */,
 				90AF0BD425AE263F006C056A /* GradientView.swift in Sources */,
 				908DF13225ACB6CB004EFE38 /* SceneDelegate.swift in Sources */,
 				90CED52225B0AE4400B64659 /* CreateAccountVC.swift in Sources */,
@@ -299,6 +306,7 @@
 				908BE96725AF6D850019FD43 /* Constants.swift in Sources */,
 				90EF2C6C25BCA3A0003D4C0D /* User.swift in Sources */,
 				90C725EE25B5F9BA00042C1F /* AuthService.swift in Sources */,
+				903FDC2A25C4A4B500C7E5BE /* AvatarPickerVC.swift in Sources */,
 				90AF0BB125ACC7E9006C056A /* SWRevealViewController.m in Sources */,
 				90AF0BC125AE0137006C056A /* ChannelVC.swift in Sources */,
 			);
