@@ -361,7 +361,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAcntBtnPressed:" destination="BKm-kl-Jtj" eventType="touchUpInside" id="8MM-FQ-eex"/>
-                                    <action selector="pickAvatarPressed:" destination="jqK-Gq-bAr" eventType="touchUpInside" id="mC0-ed-Yep"/>
+                                    <action selector="pickAvatarPressed:" destination="jqK-Gq-bAr" eventType="touchUpInside" id="ce9-wk-EVh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create and account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAP-w9-ua4">
@@ -412,7 +412,7 @@
                     <connections>
                         <outlet property="emailTxt" destination="tbg-z2-ZjD" id="bzp-yJ-pxX"/>
                         <outlet property="passTxt" destination="f0a-23-2Bl" id="jXX-lk-uG2"/>
-                        <outlet property="userImg" destination="ncp-DT-AUj" id="Ay4-ud-iWf"/>
+                        <outlet property="userImg" destination="ncp-DT-AUj" id="SqD-aX-e4F"/>
                         <outlet property="usernameTxt" destination="8Lw-xa-DNt" id="frK-ZT-w5D"/>
                         <segue destination="mEH-zi-Qft" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="07v-Zr-Fs6"/>
                         <segue destination="esM-iq-G7F" kind="show" identifier="toAvatarPicker" id="qyD-r9-m3M"/>
@@ -464,21 +464,21 @@
                                 <rect key="frame" x="0.0" y="71" width="414" height="737"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HnQ-ew-hoQ">
-                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="itemSize" width="100" height="100"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="avatarCell" id="FRw-4A-FFY" customClass="AvatarCell" customModule="Smack" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="0.0" width="128" height="128"/>
+                                        <rect key="frame" x="20" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cy5-EM-3aR">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xmf-wV-mNO">
-                                                    <rect key="frame" x="10" y="10" width="108" height="108"/>
+                                                    <rect key="frame" x="10" y="10" width="80" height="80"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
@@ -489,7 +489,7 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <connections>
-                                            <outlet property="avatarImg" destination="cy5-EM-3aR" id="be0-kw-6y2"/>
+                                            <outlet property="avatarImg" destination="Xmf-wV-mNO" id="kU8-vY-uJx"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
